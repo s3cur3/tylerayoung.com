@@ -38,7 +38,7 @@ paginate_path: /blog/page:num/
 collections:
   posts:
     output: true
-    permalink: /blog/:path/
+    permalink: /:year/:month/:day/:title/
 
 defaults:
   - scope:
