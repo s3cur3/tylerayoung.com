@@ -1,6 +1,6 @@
 baseurl: "/"
 permalink: pretty
-title: "Jekyll Atlantic"
+title: "Tyler A. Young’s Blog"
 collections_dir: collections
 markdown: kramdown
 highlighter: rouge
@@ -14,7 +14,7 @@ google_analytics_id: false # replace with "UA-XXXX"
 
 logo:
   logo_desktop_image: assets/images/logo/logo.svg
-  logo_desktop_text: "Jekyll <strong>Atlantic</strong>"
+  logo_desktop_text: "Tyler A. <strong>Young</strong>"
   logo_mobile_image: assets/images/logo/logo-mobile.svg
   logo_mobile_text: ""
   logo_desktop_height: "36px"
@@ -23,9 +23,9 @@ logo:
   logo_mobile_width: "36px"
 
 seo:
-  meta_twitter_site: "@zerostaticio"
-  meta_twitter_creator: "@zerostaticio"
-  meta_og_image: "https://www.zerostatic.io/theme/jekyll-atlantic/jekyll-atlantic-screenshot.png"
+  meta_twitter_site: "@TylerAYoung"
+  meta_twitter_creator: "@TylerAYoung"
+  #meta_og_image: "https://www.zerostatic.io/theme/jekyll-atlantic/jekyll-atlantic-screenshot.png"
 
 plugins:
   - jekyll-environment-variables

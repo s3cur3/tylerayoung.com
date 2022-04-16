@@ -1,7 +1,6 @@
 ---
 layout: home
-title: Jekyll Atlantic Theme
-heading: <em>Jekyll Tailwind</em> Starter Blog
-description: Atlantic is a beautiful Tailwind CSS theme for Jekyll. It shows best practices for using Tailwind with Jekyll.
-
+title: Tyler A. Young’s Blog
+heading: <em>Tyler A. Young’s </em> Blog
+description: Professional software engineer, amateur photographer and father
 ---

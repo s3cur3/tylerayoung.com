@@ -1,8 +1,13 @@
 ---
 layout: basic
 title: "About"
+authors: ["Tyler Young"]
 permalink: "/about/"
 ---
+
+<div style="float:right; margin-left: 20px;">
+    <img src="/assets/images/author/tyler-young.jpg" width="253px" height="228px" style="margin: 0 0 10px">
+</div>
 
 Hi there.
 
