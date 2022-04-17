@@ -11,11 +11,12 @@ body {}
 }
 .prose code::before { content: ''; }
 .prose code::after { content: ''; }
-.prose code {
+.prose code, .post-excerpt code {
     background: #efefef;
     padding: 4px 8px;
+    font-weight: 600;
 }
-.prose a:hover code {
+.prose a:hover code, .post-excerpt a:hover code {
     background: #ddd;
 }
 

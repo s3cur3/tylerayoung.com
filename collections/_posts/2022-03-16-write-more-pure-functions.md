@@ -90,5 +90,5 @@ If you see something I missed, hit me up on Twitter [@TylerAYoung](https://twitt
 
 <a href="#footnote-3-return" id="footnote-3">³</a> The whole analogy to lookup tables above is reminiscent of [memoization](https://en.wikipedia.org/wiki/Memoization). This is, in my experience, a trap... not because of problems with the concept of memoization, but because of a team's incredible propensity to invalidate the function purity invariant. I've seen 4 separate codebases, in 3 separate organizations where a clever, bright eyed developer said “this function is pure, let’s memoize it!”... only to be bitten by a subtle impurity being introduced within six months and discovered via a bug report against production. (Sometimes that bright eyed programmer has been me. 😬)
 
-<a href="#footnote-4-return" id="footnote-4">⁴</a> In the fine tradition of C++ screwing up naming, this means something different than `__attribute__((pure))`.
+<a href="#footnote-4-return" id="footnote-4">⁴</a> In the fine tradition of C++ screwing up naming, this means something different than `__attribute__((pure))`. It also [doesn't work the way you might expect]({% post_url 2020-07-02-warning-__attribute__const-does-not-mean-function-purity %}).
 
