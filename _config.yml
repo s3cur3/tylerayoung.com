@@ -56,6 +56,10 @@ defaults:
       layout: category
       permalink: /category/:basename/
 
+imagesurl: "/assets/images/"
+# Some day I might generate separate thumbnails in a mirrored structure
+thumbsurl: "/assets/images/"
+
 exclude:
   - Gemfile
   - Gemfile.lock

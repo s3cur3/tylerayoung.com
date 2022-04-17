@@ -1,7 +1,7 @@
 ---
 layout: basic
 title: "About"
-authors: ["Tyler Young"]
+authors: ['tyler']
 permalink: "/about/"
 ---
 
