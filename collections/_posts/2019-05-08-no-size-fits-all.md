@@ -3,14 +3,12 @@ title: "No Size Fits All"
 layout: post
 authors: ['tyler']
 categories: ["Programming", 'Apple']
-excerpt_separator: <!--more-->
+excerpt_full: true
 ---
 
 The [most recent episode of CppCast](https://cppcast.com/2019/05/david-sankel/) featuring David Sankel ends with a good reminder:
 
 *There is no One Software Methodology to Rule Them All, because we work in different contexts.*
-
-<!--more-->
 
 Your environment matters. If you’re a startup whose principle threat is obscurity, “move fast and break things” is good advice. If you’re an avionics developer, not so much.
 

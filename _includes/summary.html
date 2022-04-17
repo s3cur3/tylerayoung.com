@@ -19,7 +19,11 @@
       <h2 class="text-2xl font-semibold mb-1">{{ post.title }}</h2>
     </a>
 
-    {% if post.summary %}
+    {% if post.excerpt_full %}
+      <div class="prose">
+        {{ post.content }}
+      </div>
+    {% elsif post.summary %}
       <p class="text-base font-light text-gray-800 mb-4 post-excerpt">
         {{ post.summary }}
       </p>
