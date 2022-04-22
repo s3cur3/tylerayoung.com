@@ -1,5 +1,5 @@
 ---
-title: Distributive Justice: Egalitarianism versus Libertarianism
+title: "Distributive Justice: Egalitarianism versus Libertarianism"
 layout: post
 authors: ['tyler']
 categories: ["Philosophy"]
