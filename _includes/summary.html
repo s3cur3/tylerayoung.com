@@ -2,11 +2,21 @@
 
   <div class="md:mr-4 mb-2 md:mb-0 md:w-4/12 ">
     {% if post.thumbnail %}
-    <a class="bg-gray-100" href="{{ post.url | relative_url }}">
-    <img width="640" height="360" class="rounded mb-3 hover:opacity-70 transition duration-300 ease-in-out" alt="{{ post.title }}" src="{{ post.thumbnail | relative_url }}"/></a>
+      <a class="bg-gray-100" href="{{ post.url | relative_url }}">
+        <img width="640" height="360" class="rounded mb-3 hover:opacity-70 transition duration-300 ease-in-out" alt="{{ post.title }}" src="{{ post.thumbnail | relative_url }}"/>
+      </a>
     {% elsif post.image %}
+      {% if post.layout == "photos" %}
+        {% if post.gallery %}
+          <a class="bg-gray-100 glightbox" href="{{ post.image | relative_url }}" data-gallery="gallery-{{ post.id }}">
+            <img width="640" height="360" class="rounded mb-3 hover:opacity-70 transition duration-300 ease-in-out" alt="{{ post.title }}" src="{{ post.image | relative_url }}"/>
+          </a>
+        {% endif %}
+      {% else %}
         <a class="bg-gray-100" href="{{ post.url | relative_url }}">
-          <img width="640" height="360" class="rounded mb-3 hover:opacity-70 transition duration-300 ease-in-out" alt="{{ post.title }}" src="{{ post.image | relative_url }}"/></a>
+          <img width="640" height="360" class="rounded mb-3 hover:opacity-70 transition duration-300 ease-in-out" alt="{{ post.title }}" src="{{ post.image | relative_url }}"/>
+        </a>
+      {% endif %}
     {% endif %}
   </div>
 
@@ -19,7 +29,18 @@
       <h2 class="text-2xl font-semibold mb-1">{{ post.title }}</h2>
     </a>
 
-    {% if post.excerpt_full %}
+    {% if post.layout == "photos" %}
+      <div class="photos post-excerpt">
+        {% if post.gallery %}
+          {% include gallery.html folder=post.gallery exclude=post.image id=post.id %}
+        {% else %}
+          <a class="bg-gray-100 glightbox" href="{{ post.image | relative_url }}" data-gallery="gallery-{{ post.id }}">
+            <img width="100%" class="rounded mb-3 hover:opacity-70 transition duration-300 ease-in-out" alt="{{ post.title }}" src="{{ post.image | relative_url }}"/>
+          </a>
+        {% endif %}
+        {{ post.content }}
+      </div>
+    {% elsif post.excerpt_full %}
       <div class="prose">
         {{ post.content }}
       </div>

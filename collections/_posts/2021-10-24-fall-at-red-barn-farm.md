@@ -2,8 +2,8 @@
 title: Fall at Red Barn Farm
 categories: ['Photography', 'Landscape Photography']
 authors: ['tyler']
-layout: post
+layout: photos
 image: "/assets/images/red-barn-farm/img_3276-edited.jpg"
+gallery: "red-barn-farm"
 ---
 
-{% include gallery.html folder="red-barn-farm" exclude="img_3276-edited.jpg" %}

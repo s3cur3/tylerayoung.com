@@ -3,11 +3,15 @@ title: C++ Pointers & References Cheat Sheet
 categories: ['Cpp']
 authors: ['tyler']
 layout: post
+excerpt_separator: <!--more-->
+
 ---
 
 My dirty little secret: I’ve spent too much time in fancy-pants languages like Java… and Python… and Ruby… and PHP… and Javascript… to remember what the `&` does all the time.
 
 This is my cheat sheet. Hope it helps you too.
+
+<!--more-->
 
 The Golden Rule
 ---------------

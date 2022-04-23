@@ -1,6 +1,6 @@
 ---
 title: "Fall Colors"
-layout: post
+layout: photos
 authors: ['tyler']
 categories: ["Photography"]
 image: /assets/images/fall-colors.jpg

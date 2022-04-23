@@ -1,6 +1,6 @@
 ---
 title: "Union Station Ceiling"
-layout: post
+layout: photos
 authors: ['tyler']
 categories: ["Photography"]
 image: assets/images/union-station-ceiling.jpg

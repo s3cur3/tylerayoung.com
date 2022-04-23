@@ -3,13 +3,14 @@ title: Stupid Type Conversions in C++98
 categories: ['Cpp']
 authors: ['tyler']
 layout: post
+excerpt_separator: <!--more-->
 ---
 
 If you’re working on a C++98 project, you have my condolences.
 
 There are a number of type conversions that newer versions of C++ make super easy, but which are not included in C++98.
 
-Here’s my reference for these:
+Here’s my reference for these: <!--more-->
 
 String to…
 ----------
