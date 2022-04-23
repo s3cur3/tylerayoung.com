@@ -5,6 +5,7 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
+@import "assets/css/glightbox/glightbox.css";
 @import "assets/css/custom.css";
 @import "assets/css/syntax/monokai";
 
