@@ -32,8 +32,8 @@ plugins:
   - jekyll-postcss
   - jekyll-paginate
 
-paginate: 3
-paginate_path: /blog/page:num/
+paginate: 20
+paginate_path: /:num/
 
 collections:
   posts:
