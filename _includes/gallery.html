@@ -8,7 +8,7 @@
         {% assign filename = filenameparts | last | replace: file.extname,"" %}
         <li>
           <a href="{{ file.path | relative_url }}" title="{{ filename }}" class="glightbox" data-gallery="gallery-{{ include.id }}" data-glightbox="alt:;">
-            <img src="{{ file.path | relative_url }} " alt="{{ filename }}"  class="img-gallery" />
+            <img src="{{ file.path | relative_url }} " alt="{{ filename }}" class="img-gallery hover:opacity-80 transition duration-300 ease-in-out" />
           </a>
         </li>
       {% endif %}

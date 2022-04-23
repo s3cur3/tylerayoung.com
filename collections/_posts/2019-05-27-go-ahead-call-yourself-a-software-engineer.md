@@ -3,7 +3,7 @@ title: "Go ahead, call yourself a software engineer."
 layout: post
 authors: ['tyler']
 categories: ["Programming"]
-excerpt: Ian Bogost writes for The Atlantic that programmers should stop calling themselves engineers. It’s a good article, and he’s right about software devs cheapening the word “engineer” with their Wild West practices. This is a sentiment that’s been echoed for years.
+summary: Ian Bogost writes for The Atlantic that programmers should stop calling themselves engineers. It’s a good article, and he’s right about software devs cheapening the word “engineer” with their Wild West practices. This is a sentiment that’s been echoed for years.
 ---
 
 [Post-publication edit: Hillel Wayne has an excellent [3-part series on this topic](https://www.hillelwayne.com/post/are-we-really-engineers/) that goes into depth I couldn't begin to myself.]
