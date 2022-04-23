@@ -7,7 +7,7 @@ categories: ["Philosophy"]
 
 These are my (extremely lengthy) notes on [Alastair MacIntyre’s _After Virtue_](https://www.amazon.com/After-Virtue-Study-Moral-Theory/dp/0268035040). This book is credited with reinvigorating the discussion of virtue ethics in the modern context—a branch of ethics that has been more or less ignored since Aquinas.
 
-[My own thoughts on the book are here](https://tylerayoung.com/2018/12/05/review-of-after-virtue/). (As much as possible, I’ve avoided editorialising in the notes.)
+[My own thoughts on the book are here](/2018/12/05/review-of-after-virtue/). (As much as possible, I’ve avoided editorialising in the notes.)
 
 *   Chapter 2: The Nature of Moral Disagreement Today and the Claims of Emotivism
     *   Moral arguments tend to talk past each other: consider pro-choice vs pro-life, libertarianism vs socialism, pacifism vs “_si vis pacem_”-ism;

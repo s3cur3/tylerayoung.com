@@ -5,7 +5,7 @@ authors: ['tyler']
 categories: ["Programming", 'Cpp']
 ---
 
-If you’re creating a lot of small vectors in C++, you should probably consider using [a small-size optimized vector](https://tylerayoung.com/2019/01/29/benchmarks-of-cache-friendly-data-structures-in-c/) instead. But, if you can’t do that for some reason, you might wonder if there is any win to be had by `reserve()`ing a small size in advance.
+If you’re creating a lot of small vectors in C++, you should probably consider using [a small-size optimized vector](/2019/01/29/benchmarks-of-cache-friendly-data-structures-in-c/) instead. But, if you can’t do that for some reason, you might wonder if there is any win to be had by `reserve()`ing a small size in advance.
 
 While the standard doesn’t _require_ vectors to have any particular initial `capacity()`, it seems like all the common implementations:
 

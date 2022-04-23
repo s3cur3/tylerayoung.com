@@ -6,7 +6,7 @@ categories: ["Programming", 'Cpp']
 image: "/assets/images/cache-friendly/llvm-dragon.jpg"
 ---
 
-Suppose you’re a savvy C++ developer who knows all about [data-oriented design](https://www.youtube.com/watch?v=rX0ItVEVjHc) and the importance of optimizing for [cache locality](https://tylerayoung.com/2017/01/23/notes-on-game-programming-patterns-by-robert-nystrom/#chapter17-datalocalityi.e.data-orienteddesign) if you want a prayer of running fast on modern hardware. Now suppose you want to go beyond basics—”just use `std::vector`” is a good starting point, but you want more!
+Suppose you’re a savvy C++ developer who knows all about [data-oriented design](https://www.youtube.com/watch?v=rX0ItVEVjHc) and the importance of optimizing for [cache locality](/2017/01/23/notes-on-game-programming-patterns-by-robert-nystrom/#chapter17-datalocalityi.e.data-orienteddesign) if you want a prayer of running fast on modern hardware. Now suppose you want to go beyond basics—”just use `std::vector`” is a good starting point, but you want more!
 
 I’m going to go over six containers here that are alternatives to their standard library analogs: two replacements each for `std::vector`, `std::set`, and `std::map`. I’ll talk about the ideas behind them, then dive into a comparison of their performance in benchmarks.
 
