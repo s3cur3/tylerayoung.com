@@ -6,7 +6,7 @@
       {% include summary-date-title.html %}
     </div>
   </div>
-  <div class="flex flex-col md:flex-row w-full mb-4">
+  <div class="flex flex-col md:flex-row w-full mb-4 photos-summary">
     <div class="md:mr-4 md:w-4/12 ">
       <div class="text-base font-light text-gray-800 post-excerpt">
         {% if post.gallery %}
@@ -17,7 +17,7 @@
 
     <div class="flex-1">
       <a class="bg-gray-100 glightbox" href="{{ post.image | relative_url }}" data-gallery="gallery-{{ post.id }}">
-        <img width="100%" class="mb-3 hover:opacity-80 transition duration-300 ease-in-out" alt="{{ post.title }}" src="{{ post.image | relative_url }}"/>
+        <img width="100%" class="featured mb-3 hover:opacity-80 transition duration-300 ease-in-out" alt="{{ post.title }}" src="{{ post.image | relative_url }}"/>
       </a>
       <div class="text-base font-light text-gray-800 post-excerpt">
         {% if post.excerpt_full %}

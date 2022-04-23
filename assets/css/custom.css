@@ -20,6 +20,10 @@ body {}
     background: #ddd;
 }
 
+.photos-summary .featured {
+  margin: 1px;
+}
+
 ul.image-gallery {
   display: flex;
   flex-wrap: wrap;
