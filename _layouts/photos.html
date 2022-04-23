@@ -41,7 +41,7 @@ layout: default
     {% endif %}
 
     {% if page.categories %}
-      <div class="hidden md:block">
+      <div>
         {% for category in page.categories %}
           {% include category-badge.html %}
         {% endfor %}
@@ -49,14 +49,3 @@ layout: default
     {% endif %}
   </div>
 </div>
-
-{% if page.categories %}
-  <div class="py-6 mt-6 border-t-2 block md:hidden">
-    <h3 class="text-sm font-medium mb-1">Categories</h3>
-    <div>
-      {% for category in page.categories %}
-        {% include category-badge.html %}
-      {% endfor %}
-    </div>
-  </div>
-{% endif %} 
