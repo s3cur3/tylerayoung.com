@@ -1,0 +1,17 @@
+---
+layout: default
+heading: <em>Tyler A. Young’s </em> Blog
+description: Professional software engineer, amateur photographer and father
+---
+
+{% include heading.html heading=page.heading %}
+
+<main class="py-6">
+  {% for post in paginator.posts %}
+  <div class="mb-12">
+    {% include summary.html post=post %}
+  </div>
+  {% endfor %}
+</main>
+
+{% include paginator.html %}
