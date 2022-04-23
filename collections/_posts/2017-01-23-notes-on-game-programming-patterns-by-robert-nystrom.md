@@ -3,6 +3,7 @@ title: Notes on Game Programming Patterns by Robert Nystrom
 categories: ['Game Development', 'Programming']
 authors: ['tyler']
 layout: post
+image: /assets/images/game-programming-patterns.jpg
 ---
 
 _[Game Programming Patterns](http://gameprogrammingpatterns.com)_ is a game developer’s guide to the design patterns most often useful in that domain. You can [read it online](http://gameprogrammingpatterns.com/contents.html) for free.
