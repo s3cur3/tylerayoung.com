@@ -20,38 +20,64 @@ body {}
     background: #ddd;
 }
 
-.image-gallery {
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(auto-fill,minmax(200px, 1fr));
-    justify-content: center;
-    padding: 4px;
+ul.image-gallery {
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.box {
-    flex-basis: 25%;
-    width: 100%;
-    padding: 10px;
-    margin: 2px;
+.image-gallery > li {
+  height: 40vh;
+  flex-grow: 1;
+  margin: 1px;
 }
 
-.img-gallery {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-    transform: scale(1);
-    transition: all 0.3s ease-in-out;
-}
-.img-gallery:hover {
-    transform: scale(1.05);
+.image-gallery > li:last-child {
+  /* There's no science in using "10" here. In all my testing, this delivered the best results. */
+  flex-grow: 10;
 }
 
-.post-excerpt .image-gallery {
-    grid-template-columns: repeat(auto-fill,minmax(100px, 1fr));
+.image-gallery img {
+  max-height: 100%;
+  min-width: 100%;
+  object-fit: cover;
+  vertical-align: bottom;
 }
-.post-excerpt .box {
-    padding: 2px;
+
+.post-excerpt .image-gallery li {
+  height: 100px;
 }
-.post-excerpt .img-gallery {
+
+/* Portrait ratio */
+@media (max-aspect-ratio: 1/1) {
+  .image-gallery > li {
+    height: 30vh;
+  }
+  .post-excerpt .image-gallery li {
     height: 100px;
+    width: auto;
+  }
+}
+
+/* Short screens */
+@media (max-height: 480px) {
+  .image-gallery > li {
+    height: 60vh;
+  }
+}
+
+/* Smaller screens in portrait */
+@media (max-aspect-ratio: 1/1) and (max-width: 480px) {
+  ul.image-gallery {
+    flex-direction: row;
+  }
+
+  .image-gallery > li {
+    height: auto;
+    width: 100%;
+  }
+  .image-gallery > img {
+    width: 100%;
+    max-height: 75vh;
+    min-width: 0;
+  }
 }
