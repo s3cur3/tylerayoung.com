@@ -1,7 +1,5 @@
 <title>
-  {% if page.meta_title %}
-    {{ page.meta_title }}
-  {% elsif page.title %}
+  {% if page.title %}
     {{ page.title }} | {{ site.title}}
   {% else %}
     {{ site.title }}
@@ -10,18 +8,31 @@
 
 {% if page.meta_description %}
   <meta name="description" content="{{ page.meta_description }}"/>
+  <meta name="twitter:description" content="{{ page.meta_description }}" />
 {% elsif page.description %}
   <meta name="description" content="{{ page.description }}"/>
+  <meta name="twitter:description" content="{{ page.description }}" />
 {% endif %}
 
-{% if page.meta_title %}<meta property="og:title" content="{{ page.meta_title }}"/>{% else %}<meta property="og:title" content="{{ page.title }}"/>
+{% if page.title %}
+  <meta property="og:title" content="{{ page.title }}"/>
+  <meta name="twitter:title" content="{{ page.title }}" />
+{% else %}
+  <meta property="og:title" content="{{ site.title }}"/>
+  <meta name="twitter:title" content="{{ site.title }}" />
 {% endif %}
 <meta content="website" property="og:type"/>
 <meta property="og:url" content="{{ page.url }}"/>
 {% if page.image %}
   <meta property="og:image" content="{{ page.image | absolute_url }}"/>
+  <meta name="twitter:image" content="{{ page.image | absolute_url }}" />
+  <meta name="twitter:card" content="summary_large_image" />
 {% elsif site.seo.meta_og_image %}
   <meta property="og:image" content="{{ site.seo.meta_og_image | absolute_url }}"/>
+  <meta property="twitter:image" content="{{ site.seo.meta_og_image | absolute_url }}"/>
+  <meta name="twitter:card" content="summary_large_image" />
+{% else %}
+  <meta name="twitter:card" content="summary" />
 {% endif %}
 {% if page.description %}<meta property="og:description" content="{{ page.description }}"/>
 {% endif %}
