@@ -30,9 +30,10 @@ ul.image-gallery {
 }
 
 .image-gallery > li {
-  height: 40vh;
+  height: 280px;
   flex-grow: 1;
   margin: 1px;
+  min-width: 100px;
 }
 
 .image-gallery > li:last-child {
@@ -41,7 +42,7 @@ ul.image-gallery {
 }
 
 .image-gallery img {
-  max-height: 100%;
+  height: 100%;
   min-width: 100%;
   object-fit: cover;
   vertical-align: bottom;
@@ -49,39 +50,13 @@ ul.image-gallery {
 
 .post-excerpt .image-gallery li {
   height: 100px;
+  width: auto;
 }
 
-/* Portrait ratio */
-@media (max-aspect-ratio: 1/1) {
+/* Small screens */
+@media (max-width: 480px) {
   .image-gallery > li {
-    height: 30vh;
-  }
-  .post-excerpt .image-gallery li {
     height: 100px;
-    width: auto;
   }
 }
 
-/* Short screens */
-@media (max-height: 480px) {
-  .image-gallery > li {
-    height: 60vh;
-  }
-}
-
-/* Smaller screens in portrait */
-@media (max-aspect-ratio: 1/1) and (max-width: 480px) {
-  ul.image-gallery {
-    flex-direction: row;
-  }
-
-  .image-gallery > li {
-    height: auto;
-    width: 100%;
-  }
-  .image-gallery > img {
-    width: 100%;
-    max-height: 75vh;
-    min-width: 0;
-  }
-}
