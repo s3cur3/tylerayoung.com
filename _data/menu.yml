@@ -2,6 +2,24 @@ main:
   - name: "Blog"
     url: "/"
     weight: 1
+    classes: "md:hidden"
   - name: "About"
     url: "/about/"
     weight: 2
+    classes: ""
+  - name: "Programming"
+    url: "/category/programming/"
+    weight: 3
+    classes: ""
+  - name: "Photography"
+    url: "/category/photography/"
+    weight: 4
+    classes: ""
+  - name: "Work"
+    url: "/category/work/"
+    weight: 5
+    classes: ""
+  - name: "All Categories"
+    url: "/categories/"
+    weight: 6
+    classes: ""
