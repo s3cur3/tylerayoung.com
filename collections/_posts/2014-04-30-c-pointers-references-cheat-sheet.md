@@ -1,6 +1,6 @@
 ---
 title: C++ Pointers & References Cheat Sheet
-categories: ['Cpp']
+categories: ["Programming", 'Cpp']
 authors: ['tyler']
 layout: post
 excerpt_separator: <!--more-->

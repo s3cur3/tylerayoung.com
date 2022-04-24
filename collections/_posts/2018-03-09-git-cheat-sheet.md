@@ -2,7 +2,7 @@
 title: Git Cheat Sheet
 layout: post
 authors: ['tyler']
-categories: ["Programming"]
+categories: ["Programming", "Version Control"]
 ---
 
 These are a few of the Git commands I find myself looking up all the time.

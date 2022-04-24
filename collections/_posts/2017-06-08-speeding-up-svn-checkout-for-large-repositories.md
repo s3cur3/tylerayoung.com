@@ -1,6 +1,6 @@
 ---
 title: Speeding Up SVN Checkout for Large Repositories
-categories: ['Version Control']
+categories: ["Programming", 'Version Control']
 authors: ['tyler']
 layout: post
 ---

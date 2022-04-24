@@ -2,7 +2,8 @@
 title: "Warning: std::numeric_limits::min() > 0"
 layout: post
 authors: ['tyler']
-categories: ["Programming", 'Apple']
+categories: ["Programming", 'Cpp']
+excerpt_full: true
 ---
 
 Here’s a baffling design choice (which I’m reliably informed C++ inherited from older C `limits.h`).

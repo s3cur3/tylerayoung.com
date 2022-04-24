@@ -3,11 +3,25 @@ layout: default
 body_classes: page-category
 ---
 
-{% include heading.html heading=page.title description=page.description %}
+{% include heading.html heading=page.title description=page.description align="center" %}
 
-<main class="pb-6 md:pb-12">
-  {% assign category = page.title %}
-  {% for post in site.categories[category] %}
-    {% include summary-category.html post=post %}
-  {% endfor %}
+{% if page.multi_column %}
+  {% assign column_class = "multi-column-index" %}
+{% else %}
+  {% assign column_class = "" %}
+{% endif %}
+
+<main class="flex flex-col md:flex-row py-6 md:py-12">
+  <div class="w-full mx-auto md:w-9/12">
+    <div class="prose {{ column_class }}">
+      {{ content }}
+      
+      <h2>Posts</h2>
+    </div>
+    
+    {% assign category = page.title %}
+    {% for post in site.categories[category] %}
+      {% include summary-category.html post=post %}
+    {% endfor %}
+  </div>
 </main>

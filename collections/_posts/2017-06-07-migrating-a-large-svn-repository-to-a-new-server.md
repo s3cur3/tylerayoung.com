@@ -1,6 +1,6 @@
 ---
 title: Migrating a Large SVN Repository to a New Server
-categories: ['Version Control']
+categories: ["Programming", 'Version Control']
 authors: ['tyler']
 layout: post
 ---

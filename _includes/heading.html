@@ -8,7 +8,11 @@
   <div class="font-medium text-gray-700">{{ date | date_to_long_string }}</div>
   {% endif %}
   <h1 class="heading text-4xl md:text-6xl font-bold font-sans md:leading-tight">
-    {{ heading }}
+    {% if !include.fancy %}
+      {{ heading }}
+    {% else %}
+      <span class="text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500">{{ heading }}</span>
+    {% endif %}
   </h1>
   {% if description %}
   <h2 class="text-xl text-gray-600 mt-2">{{ description }}</h2>

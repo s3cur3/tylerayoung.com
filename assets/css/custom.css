@@ -20,6 +20,18 @@ body {}
     background: #ddd;
 }
 
+.multi-column-index ul {
+  -moz-column-count: 2;
+  -moz-column-gap: 1rem;
+  -webkit-column-count: 2;
+  -webkit-column-gap: 1rem;
+  column-count: 2;
+  column-gap: 1rem;
+}
+.multi-column-index ul li {
+  margin: 0;
+}
+
 .photos-summary .featured {
   margin: 1px;
 }

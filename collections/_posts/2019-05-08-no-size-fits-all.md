@@ -2,7 +2,7 @@
 title: "No Size Fits All"
 layout: post
 authors: ['tyler']
-categories: ["Programming", 'Apple']
+categories: ["Programming"]
 excerpt_full: true
 ---
 

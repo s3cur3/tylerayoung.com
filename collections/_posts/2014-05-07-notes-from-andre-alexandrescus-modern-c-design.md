@@ -1,6 +1,6 @@
 ---
 title: Notes from Andre Alexandrescu’s Modern C++ Design
-categories: ['Cpp']
+categories: ["Programming", 'Cpp']
 authors: ['tyler']
 layout: post
 ---

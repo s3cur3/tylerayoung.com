@@ -5,8 +5,8 @@ authors: ['tyler']
 permalink: "/about/"
 ---
 
-<div style="float:right; margin-left: 20px;">
-    <img src="/assets/images/author/tyler-young.jpg" width="253px" height="228px" style="margin: 0 0 10px">
+<div class="float-right ml-2">
+    <img src="/assets/images/author/tyler-young.jpg" width="253px" height="228px" class="rounded" style="margin: 0 0 0.25rem">
 </div>
 
 Hi there.

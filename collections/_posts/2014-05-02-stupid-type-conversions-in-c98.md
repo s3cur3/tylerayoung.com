@@ -1,6 +1,6 @@
 ---
 title: Stupid Type Conversions in C++98
-categories: ['Cpp']
+categories: ["Programming", 'Cpp']
 authors: ['tyler']
 layout: post
 excerpt_separator: <!--more-->
