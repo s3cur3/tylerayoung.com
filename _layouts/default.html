@@ -19,22 +19,36 @@
     </div>
     {% include google-analytics.html %}
     <script type="text/javascript" src="{{ '/assets/js/glightbox.min.js' | relative_url }}"></script>
-    <script type="text/javascript" src="{{ '/assets/js/hamburger.js' | relative_url }}"></script>
     <script type="text/javascript">
+      // Hamburger menu for mobile
+      var body = document.querySelector('body');
+      var menuOpenTrigger = document.querySelector('#menu-trigger');
+      var menuCloseTrigger = document.querySelector('#menu-close');
+      var menuContainer = document.querySelector('#menu-container');
+      var hamburgerIcon = document.querySelector('.hamburger');
+
+      if (menuOpenTrigger !== null) {
+        menuOpenTrigger.addEventListener('click', function(e) {
+          console.log("asldj")
+          menuContainer.classList.toggle('hidden');
+          menuContainer.classList.toggle('flex');
+          hamburgerIcon.classList.toggle('is-active');
+          body.classList.toggle('lock-scroll');
+        });
+        menuCloseTrigger.addEventListener('click', function(e) {
+          console.log("asldj")
+          menuContainer.classList.toggle('hidden');
+          menuContainer.classList.toggle('flex');
+          hamburgerIcon.classList.toggle('is-active');
+          body.classList.toggle('lock-scroll');
+        });
+      }
+
       const lightbox = GLightbox({
         touchNavigation: true,
         loop: true,
         autoplayVideos: true
       });
-
-      window.maybeSideEffecty = function(el) { }
-
-      for(var i = 0; i < document.images.length; ++i) {
-          document.images[i].addEventListener('load', (event) => {
-            // Try to work around Safari bug where it doesn't reflow flex grids until resize
-            window.maybeSideEffecty(event.target.offsetHeight);
-          });
-      }
     </script>
   </body>
 </html>
