@@ -5,8 +5,7 @@ authors: ['tyler']
 categories: ["Programming", "Functional Programming", "Elixir"]
 #image: "/assets/images/san-diego-2021/img_2701-edited.jpg"
 #image: "/assets/images/rogers/img_2940-edited.jpg"
-image: "/assets/images/stream.jpg"
-draft: true
+image: "/assets/images/stream-4-3.jpg"
 excerpt: "Suppose you have a `Stream` of values that you want to insert into the database. You can do this easily in many modern programming languages, but here's what it might look like in Elixir:"
 
 ---
@@ -44,7 +43,7 @@ Using an exception in this case makes your stream prone to "exploding." Quite un
 
 ## Back to basics
 
-Producing a `Stream` of `S` in this case is fundamentally the wrong type. You can't do it. You can only either produce a stream of *explosive* `S`s, or you can choose to stream a different type.
+Producing a `Stream` of `S` in this case is fundamentally the wrong type. You can't do it. You can only either produce a stream of *explosive* `S`s, or another type entirely.
 
 Suppose we're designing an XML parser. Parsing is, by its nature, problematic and prone to failure. We have to decide from the outset how we'll handle errors. Should we:
 
@@ -67,6 +66,6 @@ Clients won't be able to just treat our stream like a list of structs—they'll 
 
 <a href="#footnote-1-return" id="footnote-1">¹</a> I heard Phil Nash recently [describe](https://www.youtube.com/watch?v=9ngflAGoreM&t=25m43s) these as "disappointments" in contrast to "exceptions," making the point that these are not actually *exceptional* situations at all.
 
-<a href="#footnote-2-return" id="footnote-2">²</a> God help me, as I type this I realize you *could* produce such a thing. Dear reader, I'm begging you, do not.
+<a href="#footnote-2-return" id="footnote-2">²</a> God help me, as I write this I realize you *could* produce such a thing in some languages. Dear reader, I'm begging you, do not.
 
 

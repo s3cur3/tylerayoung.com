@@ -1,5 +1,13 @@
 body {}
 
+#footnote-1-return, #footnote-1,
+#footnote-2-return, #footnote-2,
+#footnote-3-return, #footnote-3,
+#footnote-4-return, #footnote-4,
+#footnote-5-return, #footnote-5 {
+  font-weight: bold;
+}
+
 .prose a {
     color: rgb(52, 211, 153);
     text-decoration: underline;
