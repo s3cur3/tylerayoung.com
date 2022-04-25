@@ -25,7 +25,7 @@
         {% elsif post.summary %}
           {{ post.summary }}
         {% else %}
-          {{ post.excerpt }}
+          {{ post.excerpt | markdownify }}
         {% endif %}
       </div>
 
@@ -52,7 +52,7 @@
           {{ post.summary }}
           <a href="{{ post.url | relative_url }}" class="text-green-600 hover:text-blue-800 transition duration-300 ease-in-out underline">Continue reading&hellip;</a>
         {% else %}
-          {{ post.excerpt }}
+          {{ post.excerpt | markdownify }}
           <a href="{{ post.url | relative_url }}" class="text-green-600 hover:text-blue-800 transition duration-300 ease-in-out underline">Continue reading&hellip;</a>
         {% endif %}
       </div>
