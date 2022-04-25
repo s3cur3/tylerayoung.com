@@ -4,6 +4,7 @@ title: "Tyler A. Young’s Blog"
 collections_dir: collections
 markdown: kramdown
 highlighter: rouge
+domain: https://tylerayoung.com
 
 sass:
   indentWidth: 4
@@ -25,7 +26,7 @@ logo:
 seo:
   meta_twitter_site: "@TylerAYoung"
   meta_twitter_creator: "@TylerAYoung"
-  meta_og_image: "https://tylerayoung.com/assets/images/oakland/2022-04-07-15.23.44-rockies-landscape.jpg"
+  meta_og_image: "/assets/images/oakland/2022-04-07-15.23.44-rockies-landscape.jpg"
 
 plugins:
   - jekyll-environment-variables

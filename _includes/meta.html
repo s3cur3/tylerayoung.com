@@ -24,12 +24,12 @@
 <meta content="website" property="og:type"/>
 <meta property="og:url" content="{{ page.url }}"/>
 {% if page.image %}
-  <meta property="og:image" content="{{ page.image | absolute_url }}"/>
-  <meta name="twitter:image" content="{{ page.image | absolute_url }}" />
+  <meta property="og:image" content="{{ site.domain }}{{ page.image | absolute_url }}"/>
+  <meta name="twitter:image" content="{{ site.domain }}{{ page.image | absolute_url }}" />
   <meta name="twitter:card" content="summary_large_image" />
 {% elsif site.seo.meta_og_image %}
-  <meta property="og:image" content="{{ site.seo.meta_og_image | absolute_url }}"/>
-  <meta property="twitter:image" content="{{ site.seo.meta_og_image | absolute_url }}"/>
+  <meta property="og:image" content="{{ site.domain }}{{ site.seo.meta_og_image | absolute_url }}"/>
+  <meta property="twitter:image" content="{{ site.domain }}{{ site.seo.meta_og_image | absolute_url }}"/>
   <meta name="twitter:card" content="summary_large_image" />
 {% else %}
   <meta name="twitter:card" content="summary" />
