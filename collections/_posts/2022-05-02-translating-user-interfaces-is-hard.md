@@ -6,7 +6,6 @@ categories: ["Programming"]
 #image: "/assets/images/san-diego-2021/img_2701-edited.jpg"
 #image: "/assets/images/rogers/img_2940-edited.jpg"
 image: "/assets/images/san-diego-2018/2018-12-22-14.07.52-1-hippo-and-baby.jpg"
-draft: true
 ---
 
 <style>
