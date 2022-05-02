@@ -25,10 +25,12 @@
 <meta property="og:url" content="{{ page.url }}"/>
 {% if page.image %}
   <meta property="og:image" content="{{ site.domain }}{{ page.image | absolute_url }}"/>
+  {% imagesize page.image:opengraph %}
   <meta name="twitter:image" content="{{ site.domain }}{{ page.image | absolute_url }}" />
   <meta name="twitter:card" content="summary_large_image" />
-{% elsif site.seo.meta_og_image %}
+  {% elsif site.seo.meta_og_image %}
   <meta property="og:image" content="{{ site.domain }}{{ site.seo.meta_og_image | absolute_url }}"/>
+  {% imagesize site.seo.meta_og_image:opengraph %}
   <meta name="twitter:image" content="{{ site.domain }}{{ site.seo.meta_og_image | absolute_url }}"/>
   <meta name="twitter:card" content="summary_large_image" />
 {% else %}

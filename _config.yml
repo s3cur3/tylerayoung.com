@@ -60,7 +60,7 @@ defaults:
 
 imagesurl: "/assets/images/"
 # Some day I might generate separate thumbnails in a mirrored structure
-thumbsurl: "/assets/images/"
+thumbsurl: "/assets/thumbs/"
 
 exclude:
   - Gemfile

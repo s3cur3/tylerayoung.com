@@ -37,7 +37,10 @@
     <div class="md:mr-4 mb-2 md:mb-0 md:w-4/12 ">
       {% if post.image %}
         <a class="bg-gray-100" href="{{ post.url | relative_url }}">
-          <img {% imagesize post.image:props %} class="rounded mb-3 hover:opacity-80 transition duration-300 ease-in-out" alt="{{ post.title }}" src="{{ post.image | relative_url }}"/>
+          {% assign filenameparts = post.image | split: "/" %}
+          {% assign filename = filenameparts | last %}
+          {% assign thumb = site.thumbsurl | append: filename %}
+          <img {% imagesize thumb:props %} class="rounded mb-3 hover:opacity-80 transition duration-300 ease-in-out" alt="{{ post.title }}" src="{{ thumb }}"/>
         </a>
       {% endif %}
     </div>
