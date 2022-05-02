@@ -16,7 +16,7 @@ body_classes: page-basic
 {% endif %}
 
 {% if page.image %}
-<img width="1600" height="900" src="{{ page.image }}" />
+<img {% imagesize post.image:props %} src="{{ page.image }}" />
 {% endif %}
 
 <div class="flex flex-col md:flex-row py-6 md:py-12">

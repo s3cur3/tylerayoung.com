@@ -32,6 +32,7 @@ plugins:
   - jekyll-environment-variables
   - jekyll-postcss
   - jekyll-paginate
+  - jekyll-image-size
 
 paginate: 20
 paginate_path: /:num/

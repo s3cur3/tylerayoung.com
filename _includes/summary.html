@@ -17,7 +17,7 @@
 
     <div class="flex-1">
       <a class="bg-gray-100 glightbox" href="{{ post.image | relative_url }}" data-gallery="gallery-{{ post.id }}">
-        <img width="100%" class="featured mb-3 hover:opacity-80 transition duration-300 ease-in-out" alt="{{ post.title }}" src="{{ post.image | relative_url }}"/>
+        <img width="100%" class="featured mb-3 hover:opacity-80 transition duration-300 ease-in-out" alt="{{ post.title }}" src="{{ post.image | relative_url }}" {% imagesize post.image:props %} />
       </a>
       <div class="text-base font-light text-gray-800 post-excerpt">
         {% if post.excerpt_full %}
@@ -37,7 +37,7 @@
     <div class="md:mr-4 mb-2 md:mb-0 md:w-4/12 ">
       {% if post.image %}
         <a class="bg-gray-100" href="{{ post.url | relative_url }}">
-          <img width="640" height="360" class="rounded mb-3 hover:opacity-80 transition duration-300 ease-in-out" alt="{{ post.title }}" src="{{ post.image | relative_url }}"/>
+          <img {% imagesize post.image:props %} class="rounded mb-3 hover:opacity-80 transition duration-300 ease-in-out" alt="{{ post.title }}" src="{{ post.image | relative_url }}"/>
         </a>
       {% endif %}
     </div>

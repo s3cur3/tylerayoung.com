@@ -16,7 +16,7 @@ layout: default
 
 {% if page.image %}
 <a href="{{ page.image }}" class="glightbox" data-gallery="gallery-{{ page.id }}">
-  <img width="1600" height="900" src="{{ page.image }}"/>
+  <img {% imagesize post.image:props %} src="{{ page.image }}"/>
 </a>
 {% endif %}
 
