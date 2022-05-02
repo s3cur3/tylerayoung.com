@@ -6,6 +6,7 @@ categories: ["Programming"]
 #image: "/assets/images/san-diego-2021/img_2701-edited.jpg"
 #image: "/assets/images/rogers/img_2940-edited.jpg"
 image: "/assets/images/san-diego-2018/2018-12-22-14.07.52-1-hippo-and-baby.jpg"
+summary: Say you want to build a tool to handle translating a user interface. Whether in a native app or on the web, this seems like it should be pretty simple. You'll take each string in your UI, run it through a function that looks the string up in the user's preferred language, and you're done.
 ---
 
 <style>
