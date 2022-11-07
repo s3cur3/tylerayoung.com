@@ -5,6 +5,11 @@
     "image": "https://simpleicons.org/icons/twitter.svg"
   },
   {
+    "name": "Mastodon",
+    "link": "https://fosstodon.org/web/@tylerayoung",
+    "image": "https://simpleicons.org/icons/mastodon.svg"
+  },
+  {
     "name": "LinkedIn",
     "link": "https://www.linkedin.com/in/tyler-young-dev/",
     "image": "https://simpleicons.org/icons/linkedin.svg"

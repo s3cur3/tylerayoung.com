@@ -2,3 +2,5 @@ tyler:
   name: 'Tyler Young'
   image: 'assets/images/author/tyler-young.jpg'
   twitter: '@TylerAYoung'
+  mastodon_url: 'https://fosstodon.org/web/@tylerayoung'
+  mastodon_username: '@tylerayoung@fosstodon.org'
