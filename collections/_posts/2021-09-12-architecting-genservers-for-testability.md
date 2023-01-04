@@ -8,7 +8,7 @@ image: "/assets/images/union-station-reflection.jpg"
 
 \[Post-publication update: This post turned into a conference talk at ElixirConf 2021, embedded here for posterity.\]
 
-<iframe width="480" height="299" src="https://www.youtube.com/embed/EZFLPG7V7RM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<p><iframe width="480" height="299" src="https://www.youtube.com/embed/EZFLPG7V7RM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
 
 This post is an attempt to lay out my philosophy on how we should be designing GenServers in Elixir. It says “… for testability” in the title, and we’ll focus on that, but there’s also a lot here on deciding what and how to test, as well as thinking about what the testing can tell us about how the rest of the system will use our module.
 
