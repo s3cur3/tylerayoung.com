@@ -3,7 +3,7 @@ title: "A Brief Guide to Hiring in Niche Languages Like Elixir"
 layout: post
 authors: ['tyler']
 categories: ["Elixir", "Work", "Running a Business"]
-excerpt_full: true
+excerpt_separator: <!--more-->
 ---
 
 I had someone tell me their company is considering moving away from Elixir because they're worried they can't hire enough devs. (They currently employ, um, 3.)
@@ -13,6 +13,8 @@ This is a bad reason to move!
 Instead, here's a brief guide to hiring in niche languages, using Elixir as an example.
 
 At this point, I've seen a handful of companies execute on maybe half these strategies half well. Every single one of them had more qualified applicants than they could hire. (Which means they got to be extremely choosy about who they picked!)
+
+<!--more-->
 
 ## 1. Be visible in the community
 
