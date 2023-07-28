@@ -15,5 +15,6 @@ multi_column: true
 - [Game Development](/category/game-development/)
 - [Hardware](/category/hardware/)
 - [Mobile Development](/category/mobile-development/)
+- [Today I Learned (TIL)](/category/today-i-learned-til/)
 - [Version Control](/category/version-control/)
 - [Work](/category/work/)
