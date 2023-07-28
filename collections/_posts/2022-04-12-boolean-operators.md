@@ -1,5 +1,5 @@
 ---
-title: "TIL about the Elixir's boolean operators"
+title: "TIL about the differences between Elixir's boolean operators"
 layout: post
 authors: ['tyler']
 categories: ["Programming", "Elixir", "Today I Learned (TIL)"]
