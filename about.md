@@ -17,6 +17,8 @@ I like creating things that makes people’s lives better. I’ve spent most of 
 
 I currently work as a full-stack (albeit backend-focused) developer at [Felt](https://felt.com), where we’re building a tool to democratize mapmaking. Our tech stack is Elixir, React, and Postgres, deployed on Render.
 
+I also build a web app called [CBTea](https://www.cbtea.app) on the side. It's a Phoenix LiveView app that acts as a journal for a core exercise in cognitive behavioral therapy (CBT). See the announcement post [here](/2023/07/28/cbtea-release/).
+
 In the past, I’ve worked on a few other interesting projects:
 
 *   Symphony, a SaaS made by [Generac Grid Services](https://www.enbala.com) (née Enbala) that helps energy utilities balance electricity production against demand. This was an Elixir back-end communicating with an Elm (❤️) front-end over GraphQL.
