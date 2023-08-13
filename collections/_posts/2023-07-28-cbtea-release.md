@@ -3,7 +3,7 @@ title: Releasing CBTea, a Cognitive Behavioral Therapy Journal
 layout: post
 authors: ['tyler']
 categories: ["Elixir", "CBTea"]
-excerpt_separator: <!--more-->
+excerpt_full: true
 ---
 
 <div class="float-right">
