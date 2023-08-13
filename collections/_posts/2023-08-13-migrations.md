@@ -9,6 +9,10 @@ image: /assets/images/migrating-elephants.jpg
 
 [Migrating elephants photo by <a href="https://unsplash.com/@sergiferrete" rel="nofollow">Sergi Ferrete</a> on <a href="https://unsplash.com/photos/YXwt-vJ3szA" rel="nofollow">Unsplash</a>]
 
+This is a tiny little to-purpose framework for data migrations we've used at Felt. It's based on David Bernheisel's outstanding [Safe Ecto Migrations](https://fly.io/phoenix-files/safe-ecto-migrations/) series, specifically his [Batching Deterministic Data](https://fly.io/phoenix-files/backfilling-data/#batching-deterministic-data) pattern for backfill migrations.
+
+(I'm going to be speaking at greater length about this in [my ElixirConf 2023 talk](https://2023.elixirconf.com/presenters#speakers)... until then, this is probably a little cryptic.)
+
 Here's what a simple migration looks like using the framework (really just a single [`Behaviour`](https://elixir-lang.org/getting-started/typespecs-and-behaviours.html#behaviours))—we'll break down each component of this below.
 
 ```elixir
