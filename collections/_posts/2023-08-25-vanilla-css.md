@@ -7,6 +7,8 @@ image: /assets/images/san-diego-2018/2018-12-23-14.17.38-1_hdr-sailboat.jpg
 excerpt_separator: <!-- more -->
 ---
 
+# TODO: Orthogonality is good: something that changes only color can combine with something that makes it a round rect
+
 Over the years, I've done CSS in all the popular ways:
 
 - 1990s-style vanilla CSS
