@@ -2,7 +2,7 @@
 title: "Delightful Multiplayer Editing in Phoenix"
 layout: post
 authors: ['tyler']
-categories: ["Conference Talk Summary"]
+categories: ["Conference Talk Summary", "Elixir"]
 image: "/assets/images/currently-map.jpg"
 excerpt_full: true
 ---
