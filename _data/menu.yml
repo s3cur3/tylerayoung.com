@@ -7,13 +7,13 @@ main:
     url: "/about/"
     weight: 2
     classes: ""
+  - name: "#BuildInPublic"
+    url: "/category/build-in-public/"
+    weight: 3
+    classes: ""
   - name: "Programming"
     url: "/category/programming/"
     weight: 3
-    classes: ""
-  - name: "Photography"
-    url: "/category/photography/"
-    weight: 4
     classes: ""
   - name: "Work"
     url: "/category/work/"

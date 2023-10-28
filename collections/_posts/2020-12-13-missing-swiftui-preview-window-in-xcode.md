@@ -2,7 +2,7 @@
 title: "Missing SwiftUI Preview Window in Xcode"
 layout: post
 authors: ['tyler']
-categories: ["Programming", 'Apple']
+categories: ["Programming", "Apple Development (Swift, SwiftUI, Objective-C, AppKit, and UIKit)"]
 ---
 
 This is no doubt obvious if you’ve dutifully watched all the WWDC sessions on SwiftUI, but if you’re like me and just diving in and hacking the hell out of it, you might be baffled that the much-renowned preview pane isn’t showing up when you create your SwiftUI `View`.

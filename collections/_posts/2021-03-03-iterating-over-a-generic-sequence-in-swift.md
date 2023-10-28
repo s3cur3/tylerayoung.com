@@ -2,7 +2,7 @@
 title: Iterating Over a Generic Sequence in Swift
 layout: post
 authors: ['tyler']
-categories: ["Programming", 'Apple']
+categories: ["Programming", "Apple Development (Swift, SwiftUI, Objective-C, AppKit, and UIKit)"]
 ---
 
 Here’s a goofy bit of generic programming I do all the time in Swift—ironically, it’s one thing C++ makes easier than Swift!

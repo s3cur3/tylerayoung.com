@@ -2,7 +2,7 @@
 title: "Creating a SwiftUI Window in an Objective-C AppKit App"
 layout: post
 authors: ['tyler']
-categories: ["Programming", 'Apple']
+categories: ["Programming", "Apple Development (Swift, SwiftUI, Objective-C, AppKit, and UIKit)"]
 ---
 
 I’ve been “rehabbing” a legacy Objective-C app (the [Unbound photo browser](https://www.unboundapp.com)), trying to make up for a couple years of neglect, and I wanted to start building new views in SwiftUI. There are a lot of good tutorials online for hosting SwiftUI views in UIKit apps (either iOS/iPadOs or macOS + Catalyst), but not much on how to do this for Mac and AppKit… and especially not when you’re still mostly Obj-C!
