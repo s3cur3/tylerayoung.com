@@ -9,6 +9,8 @@
 @import "assets/css/custom.css";
 @import "assets/css/syntax/monokai";
 
+.w-fit { max-width: fit-content; }
+
 @layer components {
   .heading {
     em,

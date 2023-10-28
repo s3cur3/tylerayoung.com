@@ -51,26 +51,5 @@ I'm not quite ready to link to a landing page for the monitoring service... it n
 - Interesting bits about how the service is built
 - Actual revenue numbers?? (All the cool kids are doing it, even though it freaks me out a bit...)
 
-If you'd like an email when a new post goes out—including one when the service is open for business!—drop your email here!
+If you'd like an email when a new post goes out—including one when the service is open for business!—drop your email below!
 
-<form
-  method="POST"
-  action="https://customerioforms.com/forms/submit_action?site_id=c4a416941ebb499f636d&form_id=66ffc0e21d3d4cb&success_url=https://tylerayoung.com/signup-successful/"
-  class="max-w-xl bg-green-100 p-2 sm:p-8 m-2 sm:m-4 rounded"
->
-    <h2 style="margin-top: 0; margin-bottom: 0.25em;">Follow the #BuildInPublic journey</h2>
-    <p>1&ndash;2 emails a week max, spam-free. Unsubscribe at any time.</p>
-    <div class="flex flex-row gap-x-2 items-center">
-        <label for="email_input" class="block font-medium leading-6 text-gray-900 w-fit">Email</label>
-        <div class="relative rounded-md shadow-sm" style="flex-grow: 1">
-            <div class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3">
-                <svg class="h-5 w-5 text-gray-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                    <path d="M3 4a2 2 0 00-2 2v1.161l8.441 4.221a1.25 1.25 0 001.118 0L19 7.162V6a2 2 0 00-2-2H3z" />
-                    <path d="M19 8.839l-7.77 3.885a2.75 2.75 0 01-2.46 0L1 8.839V14a2 2 0 002 2h14a2 2 0 002-2V8.839z" />
-                </svg>
-            </div>
-            <input type="email" name="email" id="email_input" class="block grow w-full rounded-md border-0 py-1.5 pl-10 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-green-600 sm:text-sm sm:leading-6" placeholder="you@example.com">
-        </div>
-    </div>
-    <button type="submit" class="mt-4 flex w-full justify-center rounded-md bg-green-600 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-green-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-600">Send me new #BuildInPublic posts!</button>
-</form>
