@@ -4,15 +4,24 @@ layout: default
 
 {% include heading.html heading=page.title description=page.description align="center" date=page.date %}
 
-{% if page.authors %}
-  <div class="flex flex-col pb-3 md:hidden">
+<div class="flex flex-col pb-3 md:hidden">
+  {% if page.authors %}
     {% for author in page.authors %}
       {% include author-large.html
         author=author
       %}
     {% endfor %}
-  </div>
-{% endif %}
+  {% endif %}
+
+  {% if page.categories %}
+    <div class="mt-2 block md:hidden">
+      {% for category in page.categories %}
+        {% include category-badge.html %}
+      {% endfor %}
+    </div>
+  {% endif %} 
+</div>
+
 
 {% if page.image %}
 <img {% imagesize post.image:props %} src="{{ page.image }}"/>
@@ -48,13 +57,3 @@ layout: default
 
 </div>
 
-{% if page.categories %}
-  <div class="py-6 mt-6 border-t-2 block md:hidden">
-    <h3 class="text-sm font-medium mb-1">Categories</h3>
-    <div>
-      {% for category in page.categories %}
-        {% include category-badge.html %}
-      {% endfor %}
-    </div>
-  </div>
-{% endif %} 
