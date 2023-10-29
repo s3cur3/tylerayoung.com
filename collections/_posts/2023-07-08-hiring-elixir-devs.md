@@ -2,7 +2,7 @@
 title: "A Brief Guide to Hiring in Niche Languages Like Elixir"
 layout: post
 authors: ['tyler']
-categories: ["Elixir", "Work", "Running a Business"]
+categories: ["Elixir", "Work", "Entrepreneurship"]
 excerpt_separator: <!--more-->
 ---
 

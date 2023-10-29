@@ -4,6 +4,7 @@ layout: post
 authors: ['tyler']
 categories: ["Work", "Build in Public"]
 excerpt_separator: <!--more-->
+canonical_url: https://www.sitemonitor.dev/2023/10/31/scary-story/
 ---
 
 In the spirit of Halloween, I'd like to tell you a scary story. This one, though, is all the more scary because it's _true_.
