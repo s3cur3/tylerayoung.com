@@ -4,7 +4,6 @@ layout: post
 authors: ['tyler']
 categories: ["Work", "Build in Public"]
 excerpt_separator: <!--more-->
-canonical_url: https://www.sitemonitor.dev/2023/10/31/scary-story/
 image: "/assets/images/partial-eclipse.jpg"
 ---
 
