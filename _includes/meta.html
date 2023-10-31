@@ -42,3 +42,8 @@
 {% endif %}
 {% if site.seo.meta_twitter_creator %}<meta name="twitter:creator" content="{{ site.seo.meta_twitter_creator }}"/>
 {% endif %}
+
+{% if page.canonical_url %}<link rel="canonical" href="{{ page.canonical_url }}"/>
+{% endif %}
+
+
