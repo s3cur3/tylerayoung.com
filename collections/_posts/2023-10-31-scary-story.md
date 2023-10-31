@@ -5,6 +5,7 @@ authors: ['tyler']
 categories: ["Work", "Build in Public"]
 excerpt_separator: <!--more-->
 canonical_url: https://www.sitemonitor.dev/2023/10/31/scary-story/
+image: "/assets/images/partial-eclipse.jpg"
 ---
 
 In the spirit of Halloween, I'd like to tell you a scary story. This one, though, is all the more scary because it's _true_.
@@ -33,7 +34,7 @@ They leaned in closer, studying the arcane terms inscribed in the sidebar.
 
 Click.
 
-"Why is there an existing token?," wondered the junior aloud. "We don't have any other internal services that require login."
+"Why is there an existing token," wondered the junior aloud. "We don't have any other internal services that require login."
 
 The senior dev gazed pensively out the window, into the rain pouring down in sheets, and thought for a time. "It must be from the old analytics dashboard that got retired last year. For security's sake, let's just cycle the token and use that one."
 
