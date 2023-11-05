@@ -35,3 +35,4 @@ Then, inspired by a [discussion with Andrei Soroker on Elixir Outlaws](https://e
 
 That's how I got to "SleepEasy." I'm not in love with the name (a friend teased that it sounds like a bad translation), but it'll do for now. It gets at the benefits, and you certainly can't fault it be not being unique. There are still a handful of names I'm kicking around that I might eventually pivot to, but for now, I have to cut myself off and get back to building the damn thing. An imperfect name won't make or break the service, but not getting it in front of customers will. I'm steeling myself for a future "SleepEasy is now \_\_\_\_\_\_\_\_\_" email, though. 🤪
 
+I'm definitely interested to hear any feedback you might have on either the name or the site!
