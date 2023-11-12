@@ -26,9 +26,9 @@
           me new #BuildInPublic posts!</button>
       </form>
 
-      <div class="flex mb-8">
+      <div class="flex mb-8 gap-3 mt-4">
         {% for item in site.data.social %}
-        <a rel="me" class="py-2 mr-2" href="{{ item.link }}" target="_blank"><img width="24" height="24"
+        <a rel="me" href="{{ item.link }}" target="_blank"><img width="24" height="24"
             src="{{ item.image }}" alt="{{ item.name }}" /></a>
         {% endfor %}
       </div>

@@ -1,0 +1,16 @@
+{% for category in include.categories %}
+  {% if category == 'Build in Public' %}
+    <div class="hidden lg:block my-4 mr-4 p-6 rounded bg-green-100">
+      <h3 class="text-lg font-semibold">I’m building a SaaS in public</h3>
+      <div class="prose prose-sm mt-4">
+        <p>👋 Hey, I’m Tyler.</p>
+        <p>I'm building my SaaS <a href="https://www.sleepeasy.app">SleepEasy Website Monitor</a> in public. It’s a new take on site monitoring that’s:</p>
+        <ul class="dark-li">
+          <li>Dead simple—no configuration needed, just drop in your domain.</li>
+          <li>Way more capable than traditional uptime monitors—we check for broken links, test your login and signup, visually inspect page layouts, &amp; much more.</li>
+          <li>Guaranteed to never produce a false positive—a human confirms every alert before it goes to your team.</li>
+        </ul>
+      </div>
+    </div>
+  {% endif %}
+{% endfor %}

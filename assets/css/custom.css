@@ -28,6 +28,14 @@ body {}
     background: #ddd;
 }
 
+.prose .dark-li li::before {
+  @apply bg-gray-700;
+}
+
+.prose blockquote p:first-of-type::before, .prose blockquote p:last-of-type::before {
+  content: '';
+}
+
 .multi-column-index ul {
   -moz-column-count: 2;
   -moz-column-gap: 1rem;
