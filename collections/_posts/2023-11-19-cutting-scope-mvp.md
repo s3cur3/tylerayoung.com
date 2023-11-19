@@ -15,11 +15,11 @@ It started with asking myself: if I commit to shipping by December 1 to early ac
 Here are some things I've thrown overboard compared to my original grand (and not particularly time-constrained) vision:
 
 1. A customer-facing web app
-2. Self-service billing
+2. Self-service billing (duh!)
 3. Automated report emails
 4. Automated alerting for customers
 
-In short, I decided the core of the value SleepEasy provides has nothing to do with software. If customers get alerts when things break, that's the whole value proposition. Customers don't care that I manually triggered tests, or manually put together a report and emailed them, and so on. I'm taking the advice to "do things that don't scale" to heart.
+In short, I decided the core of the value SleepEasy provides has nothing to do with software. If customers get alerts when things break, that's the whole value proposition. They don't care that I manually triggered tests, or manually put together a report and emailed them, and so on. I'm taking the advice to "do things that don't scale" to heart.
 
 That leaves the question: what _is_ required? The answer here comes down to anything I can't do manually (or that doesn't scale even to 10 early access customers):
 
