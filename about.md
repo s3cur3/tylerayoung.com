@@ -6,7 +6,7 @@ permalink: "/about/"
 ---
 
 <div class="float-right ml-2 sm:ml-8" style="float: right">
-    <img src="/assets/images/author/tyler-young.jpg" class="rounded w-48" style="margin: 0 0 0.25rem">
+    <img src="/assets/images/author/tyler-young.jpg" class="rounded-full w-48" style="margin: 0 0 0.25rem; width: 12rem;">
 </div>
 
 👋 Hey there!
