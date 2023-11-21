@@ -17,11 +17,13 @@ body_classes: page-category
       {{ content }}
       
       <h2>Posts</h2>
+
+      <ul style="columns: 1">
+        {% assign category = page.title %}
+        {% for post in site.categories[category] %}
+          {% include summary-category.html post=post %}
+        {% endfor %}
+      </ul>
     </div>
-    
-    {% assign category = page.title %}
-    {% for post in site.categories[category] %}
-      {% include summary-category.html post=post %}
-    {% endfor %}
   </div>
 </main>
