@@ -47,6 +47,6 @@ First, I need to get other marketing channels going in addition to email. Having
 
 Second, I need to warm up the email sending domain. I need to get more people positively interacting with the emails to keep it out of spam. I think the fastest path to that is to open up signups for a free tier of SleepEasy and coach people through the account confirmation process—before you can use SleepEasy, you'll need to open your email, find the confirmation message, and click the link. If it's in spam, make sure to move it to your inbox. Even add the sender to your contacts so you'll get our alerts when things go wrong.
 
-That seems like the best way to make sure our normal marketing messages get through, but there are still a few features I need to ship before I'm ready to open signups like that (like routing emails through a human verification step to make sure people never receive a false positive!). Nonetheless, I've already pointed a few people to the [self-serve signup](https://dashboard.sleepeasy.app/auth/sign-in) and they've gotten setup.
+That seems like the best way to make sure our normal marketing messages get through, but there are still a few features I need to ship before I'm ready to open signups like that (like routing emails through a human verification step to make sure people never receive a false positive!). Nonetheless, I've already pointed a few people to the [self-serve signup](https://dashboard.sleepeasy.app/auth/register) and they've gotten setup.
 
 All in all, we're getting there, but there's still a long road ahead!
