@@ -5,9 +5,8 @@ authors: ['tyler']
 categories: ["Elixir", "Databases"]
 excerpt: This is a tiny little to-purpose framework for data migrations we've used at Felt. It's based on David Bernheisel's outstanding [Safe Ecto Migrations](https://fly.io/phoenix-files/safe-ecto-migrations/) series, specifically his [Batching Deterministic Data](https://fly.io/phoenix-files/backfilling-data/#batching-deterministic-data) pattern for backfill migrations.
 image: /assets/images/migrating-elephants.jpg
+image_credit: Photo by <a href="https://unsplash.com/@sergiferrete" rel="nofollow">Sergi Ferrete</a> on <a href="https://unsplash.com/photos/YXwt-vJ3szA" rel="nofollow">Unsplash</a>
 ---
-
-[Migrating elephants photo by <a href="https://unsplash.com/@sergiferrete" rel="nofollow">Sergi Ferrete</a> on <a href="https://unsplash.com/photos/YXwt-vJ3szA" rel="nofollow">Unsplash</a>]
 
 This is a tiny little to-purpose framework for data migrations we've used at Felt. It's based on David Bernheisel's outstanding [Safe Ecto Migrations](https://fly.io/phoenix-files/safe-ecto-migrations/) series, specifically his [Batching Deterministic Data](https://fly.io/phoenix-files/backfilling-data/#batching-deterministic-data) pattern for backfill migrations.
 

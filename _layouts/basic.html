@@ -3,6 +3,8 @@ layout: default
 body_classes: page-basic
 ---
 
+<!-- basic.html-->
+
 {% include heading.html heading=page.title description=page.description align="center" %}
 
 {% if page.authors %}
@@ -14,7 +16,10 @@ body_classes: page-basic
 {% endif %}
 
 {% if page.image %}
-<img {% imagesize post.image:props %} src="{{ page.image }}" />
+  <img {% imagesize post.image:props %} src="{{ page.image }}" />
+  {% if page.image_credit %}
+    <p class="text-sm text-gray-400 text-center">{{ page.image_credit }}</p>
+  {% endif %}
 {% endif %}
 
 <div class="flex flex-col md:flex-row py-6 md:py-12">
