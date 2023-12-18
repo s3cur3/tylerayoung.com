@@ -22,7 +22,7 @@
   <meta name="twitter:title" content="{{ site.title }}" />
 {% endif %}
 <meta content="website" property="og:type"/>
-<meta property="og:url" content="{{ page.url }}"/>
+<meta property="og:url" content="{{ site.domain }}{{ page.url }}"/>
 {% if page.image %}
   <meta property="og:image" content="{{ site.domain }}{{ page.image | absolute_url }}"/>
   {% imagesize page.image:opengraph %}
