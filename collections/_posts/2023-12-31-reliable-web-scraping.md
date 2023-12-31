@@ -4,6 +4,8 @@ layout: post
 authors: ['tyler']
 categories: ["Entrepreneurship", "Build in Public"]
 excerpt_separator: <!--more-->
+image: /assets/images/globe-night.jpg
+image_credit: Photo by NASA
 ---
 
 Two of the core features of SleepEasy—uptime checks and broken link checking—are built on web scraping. In this last half of December, as I gear up for a big marketing push and public signups, I've been doing a lot of work to get these features really dialed in and reliable.
