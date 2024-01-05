@@ -6,7 +6,7 @@ layout: default
 
 {% include heading.html heading=page.title description=page.description align="center" date=page.date %}
 
-<div class="flex flex-col pb-3 md:hidden">
+<div class="flex flex-col w-fit mx-auto pb-3 md:hidden">
   {% if page.authors %}
     {% for author in page.authors %}
       {% include author-large.html author=author %}
@@ -19,25 +19,25 @@ layout: default
         {% include category-badge.html %}
       {% endfor %}
     </div>
-  {% endif %} 
+  {% endif %}
 </div>
 
 {% if page.image %}
   <img {% imagesize post.image:props %} src="{{ page.image }}" />
+
   {% if page.image_credit %}
     <p class="mt-2 text-sm text-gray-400 text-center">{{ page.image_credit }}</p>
   {% endif %}
 {% endif %}
 
-<div class="flex flex-col md:flex-row py-6 md:py-12">
-
-  <div class="w-full md:w-3/12 mr-4">
+<div class="flex flex-col md:flex-row py-6 md:py-12 gap-4 mx-8">
+  <div class="w-full md:w-3/12">
     {% if page.authors %}
-      <div class="flex flex-col hidden md:flex mb-3 md:mb-6">
-        {% for author in page.authors %}
-          {% include author-large.html author=author %}
-        {% endfor %}
-      </div>
+    <div class="flex flex-col hidden md:flex mb-3 md:mb-6">
+      {% for author in page.authors %}
+        {% include author-large.html author=author %}
+      {% endfor %}
+    </div>
     {% endif %}
 
     {% if page.categories %}
@@ -58,4 +58,3 @@ layout: default
   </div>
 
 </div>
-
