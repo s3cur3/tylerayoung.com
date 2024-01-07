@@ -12,7 +12,7 @@ image: /assets/images/colorado-2017/lone-tree-hdr-banner.jpg
  height="368"
  src="https://www.youtube.com/embed/1-iigCRrHxk?autoplay=1&loop=1&rel=0"
  title="SleepEasy demo video"
- class="float-right ml-8 mb-2"
+ style="float: right; margin-left: 2rem; margin-bottom: 0.5rem;"
  frameborder="0"
  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
  allowfullscreen>
