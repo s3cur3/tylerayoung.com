@@ -7,7 +7,14 @@ description: Professional software engineer, amateur photographer and father
 
 {% include heading.html heading=page.heading fancy=false align="center" %}
 
-<main class="py-6">
+<div class="max-w-lg mx-auto mb-8">
+  <img src="/assets/images/author/tyler-young.jpg" class="rounded-full w-24 m-0 mr-4 float-left">
+  
+  <p class="mb-2">Hi, I’m Tyler.</p>
+  <p>I’m a product-focused Elixir developer building my own software service and doing contract development on the side.</p>
+</div>
+
+<main class="py-6 blog-listing">
   {% for post in paginator.posts %}
   <div class="mb-12">
     {% include summary.html post=post %}

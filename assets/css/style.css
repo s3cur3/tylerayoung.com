@@ -31,3 +31,7 @@
     }
   }
 }
+
+.blog-listing .hidden-on-blog-listing {
+  @apply hidden;
+}
