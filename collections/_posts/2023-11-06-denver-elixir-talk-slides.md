@@ -7,7 +7,7 @@ excerpt_full: true
 image: "/assets/images/fantastic-hacks-and-where-to-find-them.jpg"
 ---
 
-These are the slides for my talk at the Denver Erland and Elixir Meetup from November 6, 2023.
+These are the slides for my talk at the Denver Erlang and Elixir Meetup from November 6, 2023.
 
 - [Download the Keynote file](/assets/files/fantastic-hacks-and-where-to-find-them.key) (23 MB)
 - [Download the PDF](/assets/files/fantastic-hacks-and-where-to-find-them.pdf) (4 MB)
