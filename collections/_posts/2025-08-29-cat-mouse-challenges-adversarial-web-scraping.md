@@ -4,7 +4,6 @@ layout: post
 authors: ['tyler']
 categories: ["Elixir", "Conference Talk Summary"]
 excerpt_full: true
-image: "/assets/images/m-word.gif"
 ---
 
 This is the talk I gave at ElixirConf 2025, titled "Cat and Mouse: Challenges in Adversarial Web Scraping."
