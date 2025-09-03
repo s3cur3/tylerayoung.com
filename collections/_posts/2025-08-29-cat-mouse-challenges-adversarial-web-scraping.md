@@ -7,7 +7,7 @@ excerpt_full: true
 image: "/assets/images/cat-mouse-adversarial-web-scraping-elixirconf.jpg"
 ---
 
-<p><iframe width="480" height="299" src="https://www.youtube.com/watch?v=8mumTeuiZ6o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
+<p><iframe width="480" height="299" src="https://www.youtube.com/embed/8mumTeuiZ6o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
 
 This is the talk I gave at ElixirConf 2025, titled "Cat and Mouse: Challenges in Adversarial Web Scraping."
 
