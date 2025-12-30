@@ -2,7 +2,7 @@
 title: "More Testing, Fewer Tests"
 layout: post
 authors: ['tyler']
-categories: ["Elixir", "Conference Talk Summary"]
+categories: ["Elixir", "Conference Talks"]
 excerpt_full: true
 image: "/assets/images/more-testing-fewer-tests.jpg"
 ---

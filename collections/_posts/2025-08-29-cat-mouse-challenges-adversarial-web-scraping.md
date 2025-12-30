@@ -2,7 +2,7 @@
 title: "Cat and Mouse: Challenges in Adversarial Web Scraping"
 layout: post
 authors: ['tyler']
-categories: ["Elixir", "Conference Talk Summary"]
+categories: ["Elixir", "Conference Talks"]
 excerpt_full: true
 image: "/assets/images/cat-mouse-adversarial-web-scraping-elixirconf.jpg"
 ---

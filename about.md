@@ -15,9 +15,11 @@ I’m Tyler Young.
 
 I'm a product-focused developer who likes creating things that makes people’s lives better. I’ve spent more than a decade in software working on soft-real time systems, including collaborative mapmaking, game dev, video streaming, and IoT command-and-control systems.
 
-Today, I'm building a new take on website monitoring called [SleepEasy](https://www.sleepeasy.app) and doing contracting & consulting on the side. I blog about the behind-the-scenes stuff (tech choices, marketing, customer development, and more) in the [#BuildInPublic](/category/build-in-public/) category here.
+Today, I work at a company called [Jump](https://jump.ai), where we're making financial advisors' lives easier.
 
-In the past, I’ve been fortunate to work on a handful of other interesting projects:
+In the past, I built a new take on website monitoring called [SleepEasy](https://www.sleepeasy.app) while doing contracting & consulting on the side. I blogged about the behind-the-scenes stuff (tech choices, marketing, customer development, and more) in the [#BuildInPublic](/category/build-in-public/) category here.
+
+I’ve been fortunate to work on a handful of other interesting projects:
 
 * [Felt](https://felt.com), an outrageously powerful tool for making maps on the internet. Our tech stack was Elixir, React, and Postgres, deployed on Render.
 * [CBTea](https://www.cbtea.app), a Phoenix LiveView app that acts as a journal for a core exercise in cognitive behavioral therapy (CBT). See the announcement post [here](/2023/07/28/cbtea-release/).

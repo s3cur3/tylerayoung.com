@@ -2,7 +2,7 @@
 title: "Fantastic Hacks and Where to Find Them"
 layout: post
 authors: ['tyler']
-categories: ["Elixir", "Conference Talk Summary"]
+categories: ["Elixir", "Conference Talks"]
 excerpt_full: true
 image: "/assets/images/fantastic-hacks-and-where-to-find-them.jpg"
 ---

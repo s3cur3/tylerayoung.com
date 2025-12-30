@@ -9,7 +9,7 @@ multi_column: true
 - [Apple Development (Swift, SwiftUI, Objective-C, AppKit, and UIKit)](/category/apple/)
 - [C++](/category/cpp/)
 - [Computer Science](/category/computer-science/)
-- [Conference Talk Sumaries](/category/conference-talk-summary/)
+- [Conference Talks](/category/conference-talk/)
 - [Elixir](/category/elixir)
 - [Functional Programming](/category/functional-programming/)
 - [Game Development](/category/game-development/)

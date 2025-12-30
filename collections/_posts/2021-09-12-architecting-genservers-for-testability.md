@@ -2,7 +2,7 @@
 title: Architecting GenServers for Testability in Elixir
 layout: post
 authors: ['tyler']
-categories: ["Programming", "Functional Programming", 'Elixir', "Conference Talk Summary"]
+categories: ["Programming", "Functional Programming", 'Elixir', "Conference Talks"]
 image: "/assets/images/union-station-reflection.jpg"
 ---
 

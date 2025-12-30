@@ -2,7 +2,7 @@
 title: Esoteric Data Structures and Where to Find Them
 layout: post
 authors: ['tyler']
-categories: ["Programming", "Computer Science", "Cpp", "Conference Talk Summary"]
+categories: ["Programming", "Computer Science", "Cpp", "Conference Talks"]
 ---
 
 This is a summary of [the CppCon 2017 talk given by Allan Deutsch](https://www.youtube.com/watch?v=-8UZhDjgeZU).

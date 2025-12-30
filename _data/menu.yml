@@ -7,8 +7,8 @@ main:
     url: "/about/"
     weight: 2
     classes: ""
-  - name: "#BuildInPublic"
-    url: "/category/build-in-public/"
+  - name: "Conference Talks"
+    url: "/category/conference-talks/"
     weight: 3
     classes: ""
   - name: "Programming"
