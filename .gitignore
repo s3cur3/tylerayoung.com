@@ -2,6 +2,9 @@
 node_modules
 npm-debug.log
 
+# Bundler (project-local gems)
+vendor/bundle
+
 # Jekyll
 _site
 _site/
